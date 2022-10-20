@@ -100,3 +100,26 @@ const cardNumberPattern = {
 }
 
 const cardNumberMasked = IMask(cardNumber,cardNumberPattern);
+
+// Selecionando o botão de adicionar cartão
+const addButton = document.querySelector("#add-card");
+//"Observando" quando botão tiver o evento de clique. Quando ocorrer o clique, dispare uma função anônima
+addButton.addEventListener("click",()=>{
+    alert("Cartão cadastrado");
+}) 
+
+//Para que a página não carregue no envio do form, seleciono o form e fico observando quando ele tiver o evento submit. Quando acontecer, eu peço para ele não fazer o padrão do evento, que seria recarregar a página
+document.querySelector("form").addEventListener("submit",(event)=>{
+    event.preventDefault();
+})
+
+// Selecionando o input do nome do titular
+const cardHolder = document.querySelector("#card-holder");
+
+//Observando quando o campo tiver o evento input (entrada de texto). Quando tiver, eu vou selecionar o atributo value da div cc-holder (que exibe o nome no cartão) e vou alterar para o que está sendo digitado
+cardHolder.addEventListener("input",()=>{
+    const ccHolder = document.querySelector(".cc-holder .value");
+
+    // Para modificar o value da div cc-holder, faço um if ternário checando se o value é igual a zero. Caso sim, vou exibir um nome padrão
+    ccHolder.innerText = cardHolder.value.length === 0 ? "FULANO DA SILVA" : cardHolder.value;
+});
