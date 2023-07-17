@@ -22,9 +22,10 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 </p>
 
 ## :link: Link do projeto publicado
-https://rocket-pay-explorer-lab-rho.vercel.app/
+<a href="https://rocket-pay-explorer-lab-rho.vercel.app/" target="_blank">Clique aqui para visualizar</a>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Digite o número do cartão iniciando com 4 e veja a bandeira mudar para Visa.
+Digite o núemro do cartão iniciando com 5 + 1 dígito e veja a bandeira mudar para Master.
 
 ## 🚀 Tecnologias
 
