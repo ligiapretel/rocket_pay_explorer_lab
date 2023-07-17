@@ -21,6 +21,11 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
   <img alt="rocketpay" src=".github/project.png" width="100%">
 </p>
 
+## :link: Link do projeto publicado
+https://rocket-pay-explorer-lab-rho.vercel.app/
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
